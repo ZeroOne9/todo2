@@ -5,7 +5,6 @@ import "./App.css";
 const API_URL = process.env.REACT_APP_API_URL || "http://localhost:4000";
 console.log("API_URL =", API_URL);
 
-
 function App() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState("");
@@ -47,8 +46,8 @@ function App() {
 
   return (
     <div className="App">
-      
       <h1>📝Todo List Của Huy Deployed via GitHub Actions</h1>
+      <h1>📝Thi Thứ Năm-Ca4-CaoChiHuy</h1>
 
       <form onSubmit={addTodo}>
         <input
